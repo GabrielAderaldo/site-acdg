@@ -1,0 +1,89 @@
+footer{
+    background: #000000;
+}
+
+.footer-logo .logo{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 700;
+    font-size: 2em;
+    
+}
+
+.footer-logo .logo img{
+    height: 150px;
+    width: 200px;
+}
+
+.menuFooter ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+
+.menuFooter ul li a{
+    letter-spacing: 2px;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.menuFooter ul li a:hover{
+    list-style-type: none;
+    transition: 0.2s;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 1;
+
+}
+
+.direitos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #dddddd;
+    font-size: 18px;
+}
+
+/*Ajeitar depois a parte das redes socias*/
+
+.redesSocias ul{
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+    
+}
+
+.redesSocias ul a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #dddddd;
+    opacity: 0.8;
+    
+    font-size: 38px; 
+       
+}
+
+.liFacebook{
+    margin: 1em;
+    
+}
+
+
+.redesSocias ul a:hover{
+    opacity: 1;
+    color: #ffffff;
+    transition: 0.4s;
+}

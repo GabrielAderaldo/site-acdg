@@ -1,0 +1,46 @@
+.sec {
+    background: #ffffff;
+    padding: 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sec .conteudo {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.maxW800p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+p {
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.bnt {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background: #000000;
+    text-decoration: none;
+    color: #ffffff;
+   transition: 3s;
+}
+

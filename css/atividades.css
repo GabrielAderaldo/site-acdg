@@ -1,0 +1,33 @@
+.states {
+    background: #000000;
+    padding-top: 250px;
+    margin-top: -250px;
+}
+
+.conteudo_escrito h1 {
+    color: #ffffff;
+    font-size: 42px;
+}
+
+.conteudo_escrito p {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.startesbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.startesbox h2 {
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.startesbox h4 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

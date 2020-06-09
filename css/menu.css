@@ -1,0 +1,67 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 1000;
+    transition: 0.6s;
+    background-color: #ffffff;
+}
+/*Não tá funcionando o menu, depois ajeito isso...*/
+
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     transition: 0.6s;
+}
+
+
+header .logo img{
+height: 60px;
+width: 80px;
+border-radius: 3px;
+display: flex;
+justify-content: center;
+
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+header ul li{
+    position: relative;
+    margin: 0 15px;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: purple;
+    letter-spacing: 2px;
+    font-weight: 300;
+    transition: 0.6s;
+
+}
+
+
+header .menuReduzido .logo{
+    color: black;
+}
+
+
+/*Criando o menu responsivo*/
